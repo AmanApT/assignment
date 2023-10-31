@@ -1,0 +1,120 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Public+Sans&display=swap');
+
+ p{
+    font-size: 14px;
+ }
+.action-items-wrapper{
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+/* font-family: 'Public Sans', sans-serif;f */
+    font-family: poppins;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+    padding: 0% 4%;
+}
+.action-items-wrapper hr{
+    width: 100%;
+}
+.action-items-header {
+    font-weight: 800;
+    text-align: center;
+    padding: 0 5%;
+    /* width: 70%; */
+    color:#4D4D4D;
+    /* background-color: white; */
+}
+.action-items-header span{
+    color:black;
+}
+
+.select{
+    font-size: 14px;
+    background-color: #E0E0E0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 3%;
+}
+.select span{
+    font-weight: 500;
+}
+
+.textarea{
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+    /* border-radius: 5px; */
+/* font-size: 18px; */
+    border: none;
+    background-color: transparent;
+}
+
+textarea::-webkit-scrollbar {
+    
+    width: 5px; /* Set the width of the scrollbar track */
+  }
+  
+textarea::-webkit-scrollbar-track {
+    background: #ccc;
+  }
+  textarea::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the color of the scrollbar thumb */
+    border-radius: 6px; /* Set the border radius of the thumb */
+  }
+  
+  textarea::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Set the color of the scrollbar thumb on hover */
+  }
+
+
+
+
+.textarea:focus{
+    border: none;
+    outline: none;
+}
+.textarea::placeholder{
+    color:grey;
+    font-family: 'Poppins', sans-serif;
+}
+.textfield-attach{
+    padding:0 2%;
+    border-radius: 5px;
+    background-color: #E0E0E0;
+}
+.attach-box{
+    font-size: 14px;
+    display: flex;
+    /* width: 40%; */
+    background-color: #c7c7c7;
+    padding: 1% 2%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    align-items: center;
+}
+.attach-box-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.submit-button{
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+background-color: #6c6c6c;
+/* margin-left: auto; */
+padding: 1% 4%;
+border-radius: 5px;
+margin: 2% 0 2% auto;
+}
+
+.textfield-attach2{
+    background-color: white;
+    border: 1px solid grey;
+}
